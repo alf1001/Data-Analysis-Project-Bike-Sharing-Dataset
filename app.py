@@ -16,8 +16,8 @@ st.markdown("""
 
 # Load data directly from the specified path
 st.header("Load Data")
-bike_day = pd.read_csv("day.csv")
-bike_hour = pd.read_csv("hour.csv")
+bike_day = pd.read_csv("Dataset/day.csv")
+bike_hour = pd.read_csv("Dataset/hour.csv")
 
 # Display the first few rows of the dataset
 st.write(bike_day.head())
